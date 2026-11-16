@@ -19,9 +19,9 @@ This is how you respond throughout the phase.
 
 ## Show, don't just tell
 
-When the idea has a shape someone could look at, such as a page, a flow, a layout, a document structure, a dashboard or a process, sketch it rather than only describing it. Use whatever this environment supports: a Claude artifact, an HTML page, a diagram or a quick mockup. A picture surfaces disagreements that words hide.
+When the idea has a shape someone could look at, such as a page, a flow, a layout, a document structure, a dashboard or a process, offer to sketch it rather than only describing it, and sketch only if the user wants it. Use whatever this environment supports: a Claude artifact, an HTML page, a diagram or a quick mockup. A picture surfaces disagreements that words hide. If the user declines, don't offer again unless something new comes up that a sketch would clearly settle.
 
-Where there's a real fork, draw two or three genuinely different options side by side instead of one, and ask the user to pick and comment. Their reactions are intent: what they reject teaches as much as what they choose. Keep the sketches rough, since they're for deciding, not delivering. Link the ones that shaped the decision in `intent.md` and note what was chosen and why.
+Where there's a real fork, offer to draw two or three genuinely different options side by side. If the user accepts, ask them to pick and comment. Their reactions are intent: what they reject teaches as much as what they choose. Keep the sketches rough, since they're for deciding, not delivering. Link the ones that shaped the decision in `intent.md` and note what was chosen and why.
 
 ## 1. Start
 
@@ -44,7 +44,7 @@ This usually takes three to eight exchanges. When the core is out, give the whol
 
 ## 3. Clarify
 
-Resolve the gaps and tensions in about five questions at most. Where research could inform an answer (the web, files, earlier decisions), do it first and lead with what you found. Where a choice is easier to see than to describe, sketch the options. Pure judgment calls are just asked.
+Resolve the gaps and tensions in about five questions at most. Where research could inform an answer (the web, files, earlier decisions), do it first and lead with what you found. Where a choice is easier to see than to describe, offer to sketch the options. Pure judgment calls are just asked.
 
 ## 4. Write intent.md
 
