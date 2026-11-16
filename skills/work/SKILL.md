@@ -30,6 +30,7 @@ Tell the user which step is next, and agree how often to check in: after every s
 
 ```markdown
 ## {N}. {Step name} ({YYYY-MM-DD})
+Gaps: {gap titles this step closed or moved forward; omit if the project skipped gap}
 {What was produced, with paths or links. Decisions made and why. Anything left open.}
 ```
 

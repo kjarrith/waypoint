@@ -54,6 +54,7 @@ The index holds only what can't be read elsewhere. It has no status column: a pr
 
 intent → gap → plan (optional) → work → reflect
 
+- "Gap" means only the distance between the current state and the intent, as measured in `gap.md`. Plan and work exist to close gaps and refer to them by their titles in `gap.md`. During intent, call unresolved things unknowns.
 - Gap can be skipped when the current state is already clear. Plan is only for projects with several workstreams, real dependencies, steps owned by other people, or steps too big for one sitting. Gap ends by recommending whether a plan is needed.
 - If a later phase shows the intent was wrong, say so. With the user's agreement, update `intent.md` and add a dated line under a `## Revisions` heading at the bottom. Never quietly work around the intent.
 

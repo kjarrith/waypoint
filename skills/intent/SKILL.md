@@ -40,11 +40,11 @@ Ask one open question and let them talk. Answer each reply with mirror++, then a
 
 Add other dimensions, like tone or visual direction, only when the project needs them. Always cover purpose, outcome, success and constraints. Push past first answers: "a new landing page" is not intent; "a landing page that convinces enterprise buyers we're mature enough to trust with their data" is.
 
-This usually takes three to eight exchanges. When the core is out, give the whole picture back as one larger mirror++: what you heard, grouped by dimension, the gaps, tensions and assumptions you noticed, and what you think the intent really is. If some ideas could stand alone as their own project, ask whether to keep them or park them in `index.md`.
+This usually takes three to eight exchanges. When the core is out, give the whole picture back as one larger mirror++: what you heard, grouped by dimension, the unknowns, tensions and assumptions you noticed, and what you think the intent really is. If some ideas could stand alone as their own project, ask whether to keep them or park them in `index.md`.
 
 ## 3. Clarify
 
-Resolve the gaps and tensions in about five questions at most. Where research could inform an answer (the web, files, earlier decisions), do it first and lead with what you found. Where a choice is easier to see than to describe, offer to sketch the options. Pure judgment calls are just asked.
+Resolve the unknowns and tensions in about five questions at most. An unknown that doesn't block the next phase can stay open: record it under Open questions in `intent.md`. Where research could inform an answer (the web, files, earlier decisions), do it first and lead with what you found. Where a choice is easier to see than to describe, offer to sketch the options. Pure judgment calls are just asked.
 
 ## 4. Write intent.md
 

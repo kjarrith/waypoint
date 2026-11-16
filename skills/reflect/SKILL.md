@@ -11,7 +11,7 @@ Look back together: did the project achieve its intent, what worked, what should
 
 ## 1. Gather
 
-Read `intent.md`, `plan.md` if there is one, and `work.md`. Rate each success criterion as met, partly met or not met, with evidence. Note how the plan and the intent changed along the way, and any themes that kept coming up. Share a short summary in chat.
+Read `intent.md`, `gap.md` and `plan.md` if they exist, and `work.md`. Rate each success criterion as met, partly met or not met, with evidence, and check which gaps closed. Note how the plan and the intent changed along the way, and any themes that kept coming up. Share a short summary in chat.
 
 ## 2. Talk
 
@@ -33,6 +33,10 @@ Status: Draft
 - [x] {Criterion}: met. {Evidence.}
 - [~] {Criterion}: partly met. {What's there and what's missing.}
 - [ ] {Criterion}: not met. {Why.}
+
+## Gaps
+- [x] {Gap title}: closed. {By which step.}
+- [ ] {Gap title}: still open. {Why, and what it would take.}
 
 ## What worked
 - {Thing}: {why it worked}

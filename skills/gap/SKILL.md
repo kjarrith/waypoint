@@ -44,7 +44,7 @@ Status: Draft
 - {Risk or unknown, and what it could change.}
 
 ## Next steps
-1. {What to do, in order, noting dependencies.}
+1. {What to do, in order, noting dependencies.} Closes: {gap titles}
 
 **Recommendation:** {Go straight to /theway:work, or /theway:plan first, and why.}
 

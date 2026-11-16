@@ -28,6 +28,7 @@ Status: Draft
 ## Steps
 - [ ] **1. {Step name}**
   - Deliverable: {a specific, nameable output}
+  - Closes: {gap titles from gap.md}
   - Done when: {yes/no checks, traced to the success criteria in intent.md}
   - Owner: {only when it isn't the agent with the user: the user alone, or someone else}
   - Needs: {earlier steps or outside inputs, if any}
