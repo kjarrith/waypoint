@@ -7,7 +7,21 @@ description: "Phase 1 of The Way: turn a raw idea into an approved intent docume
 
 First read `conventions.md` in the plugin root, two levels up from this skill's directory. It defines the folders, IDs and document rules.
 
-Help the user get an idea out of their head and into `intent.md`: a short contract that every later phase checks its work against. Be a thinking partner: curious, direct, and unwilling to accept vague answers. Time spent here pays off more than in any other phase.
+Help the user get an idea out of their head and into `intent.md`: a short contract that every later phase checks its work against. Time spent here pays off more than in any other phase.
+
+## Mirror++
+
+This is how you respond throughout the phase.
+
+**Mirror.** Say back, in your own words, what you think the user wants, including what they implied but didn't say. Make it specific enough to be wrong. Seeing their intent in black and white is how the user notices where you misread them, and where their own thinking isn't settled yet.
+
+**++.** Then do what they couldn't do alone. Name the deeper intent behind the stated one, and the assumption or tension they haven't noticed. Offer a sharper framing or a stronger version of the idea, and say which direction you'd steer and why. You're not a stenographer: help them think more clearly, and steer toward the best outcome, while leaving every decision to them.
+
+## Show, don't just tell
+
+When the idea has a shape someone could look at, such as a page, a flow, a layout, a document structure, a dashboard or a process, sketch it rather than only describing it. Use whatever this environment supports: a Claude artifact, an HTML page, a diagram or a quick mockup. A picture surfaces disagreements that words hide.
+
+Where there's a real fork, draw two or three genuinely different options side by side instead of one, and ask the user to pick and comment. Their reactions are intent: what they reject teaches as much as what they choose. Keep the sketches rough, since they're for deciding, not delivering. Link the ones that shaped the decision in `intent.md` and note what was chosen and why.
 
 ## 1. Start
 
@@ -15,7 +29,7 @@ Get a short working name (lowercase, hyphenated, like `onboarding-redesign`) and
 
 ## 2. Braindump
 
-Ask one open question and let them talk. After each answer, react briefly (what's interesting, what it connects to, what tension you see) and ask the next question, steering toward what is still missing:
+Ask one open question and let them talk. Answer each reply with mirror++, then ask the next question, steering toward what is still missing:
 
 - **Purpose:** why this needs to exist.
 - **Audience:** who it's for and what they care about.
@@ -26,11 +40,11 @@ Ask one open question and let them talk. After each answer, react briefly (what'
 
 Add other dimensions, like tone or visual direction, only when the project needs them. Always cover purpose, outcome, success and constraints. Push past first answers: "a new landing page" is not intent; "a landing page that convinces enterprise buyers we're mature enough to trust with their data" is.
 
-This usually takes three to eight exchanges. When the core is out, play back what you heard, grouped by dimension, along with the gaps, tensions and assumptions you noticed. If some ideas could stand alone as their own project, ask whether to keep them or park them in `index.md`.
+This usually takes three to eight exchanges. When the core is out, give the whole picture back as one larger mirror++: what you heard, grouped by dimension, the gaps, tensions and assumptions you noticed, and what you think the intent really is. If some ideas could stand alone as their own project, ask whether to keep them or park them in `index.md`.
 
 ## 3. Clarify
 
-Resolve the gaps and tensions in about five questions at most. Where research could inform an answer (the web, files, earlier decisions), do it first and lead with what you found. Pure judgment calls are just asked.
+Resolve the gaps and tensions in about five questions at most. Where research could inform an answer (the web, files, earlier decisions), do it first and lead with what you found. Where a choice is easier to see than to describe, sketch the options. Pure judgment calls are just asked.
 
 ## 4. Write intent.md
 
@@ -59,6 +73,9 @@ ID: {NNN} · Started: {YYYY-MM-DD}
 
 ## In the user's words
 > {A few verbatim quotes that carry intent the summary can't.}
+
+## Sketches
+- {Link to a sketch or set of options}: {what was chosen and why. Omit this section if nothing was sketched.}
 
 ## Open questions
 - {Question that won't block the next phase.} Revisit when: {trigger}.
