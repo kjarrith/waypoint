@@ -1,0 +1,12 @@
+{
+  "name": "theway-marketplace",
+  "owner": {
+    "name": "Kjartan Thorisson"
+  },
+  "plugins": [
+    {
+      "name": "theway",
+      "source": "./"
+    }
+  ]
+}

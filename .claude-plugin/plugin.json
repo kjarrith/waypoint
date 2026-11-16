@@ -1,0 +1,20 @@
+{
+  "name": "theway",
+  "version": "1.0.0",
+  "description": "Structured human-agent collaboration from idea to delivered value. Five phases — Intent, Gap, Plan, Work, Reflect — that work for any project domain.",
+  "author": {
+    "name": "Kjartan Thorisson",
+    "url": "https://github.com/kjarrith"
+  },
+  "repository": "https://github.com/kjarrith/theway",
+  "license": "MIT",
+  "keywords": [
+    "workflow",
+    "agent-collaboration",
+    "intent",
+    "planning",
+    "execution",
+    "reflection",
+    "human-agent"
+  ]
+}
