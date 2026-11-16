@@ -1,11 +1,9 @@
-# The Way Plugin
+# The Way plugin
 
-A human-agent collaboration plugin. Five skills guide projects from raw idea to delivered value.
+Five skills (`skills/*/SKILL.md`) take a project from intent to reflection. `conventions.md` is the single source of truth for the folder layout, IDs, documents and phase order; every skill reads it first and must not restate it.
 
-## When to suggest each skill
+When editing:
 
-- `/theway:intent` — User describes a new project, says "I want to build...", "we need a...", or needs to define what they're trying to accomplish
-- `/theway:gap` — User has an approved intent and wants to understand the current state or map what's missing
-- `/theway:plan` — User has an approved gap analysis and wants to break the work into steps
-- `/theway:work` — User has an approved plan and wants to start executing, or says "let's build", "do the next step"
-- `/theway:reflect` — User has completed all work steps and wants to review outcomes and capture learnings
+- Keep the skills short. Give goals, the output's shape and a few rails, and trust the model with the rest. No scripted lines, no per-exchange file writes, no resume logic: the conversation is the working memory and the phase documents are the state.
+- A rule that more than one skill needs goes in `conventions.md`.
+- Bump `version` in `.claude-plugin/plugin.json` on every change that users should pick up.
