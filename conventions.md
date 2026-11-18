@@ -47,7 +47,7 @@ The index holds only what can't be read elsewhere. It has no status column: a pr
 ## Documents
 
 - The conversation is the working memory. Write each phase's document when the phase is ready for review, not exchange by exchange. The exception is `work.md`, which gets one entry per approved step because work spans sessions.
-- `intent.md`, `gap.md`, `plan.md` and `reflection.md` carry `Status: Draft` until the user approves them, then `Status: Approved`. `work.md` carries `Status: In progress` until every step is approved, then `Status: Done`. Which documents exist, and their status, is the project's state. There is no separate state file.
+- `intent.md`, `plan.md` and `reflection.md` carry `Status: Draft` until the user approves them, then `Status: Approved`. `gap.md` has no status: it's the executing agent's brief, not something the user approves, and its existence means the gap phase is done. `work.md` carries `Status: In progress` until every step is approved, then `Status: Done`. Which documents exist, and their status, is the project's state. There is no separate state file.
 - Write for an agent that never saw the conversation: a new session picks up a project by reading its documents. Record what was decided and why, not the conversation that got there.
 
 ## Phases
