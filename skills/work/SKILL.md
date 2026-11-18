@@ -23,7 +23,7 @@ Tell the user which step is next, and agree how often to check in: after every s
 
 ## Each step
 
-1. **Do it.** Stay inside the step. If it turns out bigger or different than expected, or the plan or intent looks wrong, stop and say so rather than expanding silently. If someone else owns the step, prepare what they need and follow up on what comes back.
+1. **Do it.** Stay inside the step. If it turns out bigger or different than expected, or the plan or intent looks wrong, stop and say so rather than expanding silently. If someone else owns the step, prepare what they need and follow up on what comes back. If the step depends on work outside the project, check its current state first; if it changed, say so before going on.
 2. **Check it.** Switch to looking for problems. Compare what you actually produced with the step's checks and with `intent.md`, and fix what you can. Call borderline results partial, not passed.
 3. **Show it.** Write it for a user who comes back cold, so they can approve without scrolling back:
    - **The step and its definition of done**, in a line or two: what the step was for and what had to be true at the end.
@@ -36,11 +36,13 @@ Tell the user which step is next, and agree how often to check in: after every s
 ```markdown
 ## {N}. {Step name} ({YYYY-MM-DD})
 Gaps: {gap titles this step closed or moved forward; omit if the project skipped gap}
-{What was produced, with paths or links. Decisions made and why. Anything left open.}
+{What was produced, with paths or links. Decisions made and why. Anything left open, or found outside the step and not fixed.}
 ```
 
-If you notice something worth doing outside the step, mention it rather than doing it.
+If you notice something worth doing outside the step, mention it and log it in the step's entry rather than doing it.
 
 ## Finish
 
-When every step is approved, set `work.md` to `Status: Done` and offer `/theway:reflect`.
+A step that can't finish inside the project can be handed off, with the user's agreement: log where it went and the check that will prove it. Reflect rates the criteria it serves as not met.
+
+When every step is approved or handed off, set `work.md` to `Status: Done` and offer `/theway:reflect`.
