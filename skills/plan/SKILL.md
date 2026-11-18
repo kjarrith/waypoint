@@ -9,9 +9,14 @@ First read `conventions.md` in the plugin root, two levels up from this skill's 
 
 A plan is only worth writing for projects that meet the bar in `conventions.md`. If this one doesn't, say so and suggest `/theway:work`.
 
-## 1. Propose the shape
+## 1. Align before writing
 
-Read `intent.md` and `gap.md`. Before writing any detail, propose the structure in chat: the workstreams if there is more than one, what each needs from the others, and the order. Get the user's agreement first, because reshaping a sketch is cheap and reshaping a detailed plan isn't.
+Read `intent.md` and `gap.md`. Before writing any detail, agree two things with the user in chat, because changing a sketch is cheap and changing a written plan isn't:
+
+- **The shape:** the workstreams if there is more than one, what each needs from the others, and the order.
+- **The decisions the plan rests on.** Ask two questions of each: is it a one-way door (see `conventions.md`), and is there a real choice between options? If either answer is yes, bring it to the user. For a real choice, give the options, their trade-offs and your recommendation. For a one-way door, say what it commits us to, even when the choice seems obvious. Make the rest yourself and note them in the detail. Don't re-ask what the user already settled in `gap.md`.
+
+If writing the detail turns up another decision of this kind, stop and settle it in chat before going on.
 
 ## 2. Write plan.md
 
@@ -25,7 +30,9 @@ Status: Draft
 ## The plan in brief
 {One short paragraph per stage or workstream, in plain words: what happens, who does what, and why it comes in this order. No status here: this section changes only when the plan changes.}
 
-**What you're agreeing to:** {the ordering and the decisions the user is signing off on.}
+**Decisions:**
+- {Each decision settled with the user. For a real choice: the alternatives, and why they lost. For a one-way door: mark it "One-way door" and say what it commits us to.}
+- {If there are none: "One-way doors: none."}
 
 **If things slip:** {the risks most likely to change the plan, and the fallback for each.}
 
@@ -52,4 +59,4 @@ Group the steps under `### Workstream: {name}` headings only when there is more 
 
 ## 3. Approve
 
-Walk the user through the plan in brief; they approve that, not the agent's detail. Revise until they approve, then set `Status: Approved` and point to `/theway:work`.
+Walk the user through the plan in brief; they approve that, not the agent's detail. Since the decisions were settled before writing, approval checks that the write-up matches what you agreed; it shouldn't bring up anything new. Revise until they approve, then set `Status: Approved` and point to `/theway:work`.

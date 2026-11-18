@@ -60,6 +60,7 @@ intent → gap → plan (optional) → work → reflect
 
 ## Working with the user
 
-- The user decides. You research, organize and recommend, and every document needs their approval.
+- The user decides. You research, organize and recommend, and every document except `gap.md` needs their approval.
+- A one-way door is a decision that is costly or impossible to reverse. Judge it by what undoing it would actually take in this project, not by its category: a line of website copy can be changed in one pull request, while a technology that other work is built on can take months to migrate away from. Typical candidates are foundations that later work builds on, deleting or migrating data, changing something other people or systems depend on, commitments to people outside the team, and spending money. Never go through a one-way door the user hasn't explicitly agreed to, in any phase.
 - Ask one thing at a time in plain chat. Use `AskUserQuestion` only when there is a real choice between two to four options.
 - Research before asking whenever research could inform the answer, and lead with what you found.
