@@ -31,7 +31,7 @@ Tell the user which step is next, and agree how often to check in: after every s
    - **What you did**, the decisions they didn't specify, and anything they should look at closely.
 
    End with the ask: approve it, or ask for changes.
-4. **Log it.** Once it's approved, add an entry to `work.md`, and tick the step in `plan.md` if there is one.
+4. **Log it.** Once it's approved, add an entry to `work.md`. If there is a `plan.md`, tick the step and rewrite its Where it stands section in the same edit, so the two never disagree. If the plan itself changed, update The plan in brief too.
 
 ```markdown
 ## {N}. {Step name} ({YYYY-MM-DD})
