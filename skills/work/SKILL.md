@@ -25,7 +25,12 @@ Tell the user which step is next, and agree how often to check in: after every s
 
 1. **Do it.** Stay inside the step. If it turns out bigger or different than expected, or the plan or intent looks wrong, stop and say so rather than expanding silently. If someone else owns the step, prepare what they need and follow up on what comes back.
 2. **Check it.** Switch to looking for problems. Compare what you actually produced with the step's checks and with `intent.md`, and fix what you can. Call borderline results partial, not passed.
-3. **Show it.** Summarize what you did, the decisions the user didn't specify, and anything they should look at closely. Ask them to approve it or ask for changes.
+3. **Show it.** Write it for a user who comes back cold, so they can approve without scrolling back:
+   - **The step and its definition of done**, in a line or two: what the step was for and what had to be true at the end.
+   - **Where it stands**, checked in this turn: the artifact's link, its state (draft, CI result, open comments) and what is still open.
+   - **What you did**, the decisions they didn't specify, and anything they should look at closely.
+
+   End with the ask: approve it, or ask for changes.
 4. **Log it.** Once it's approved, add an entry to `work.md`, and tick the step in `plan.md` if there is one.
 
 ```markdown
