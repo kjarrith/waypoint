@@ -75,7 +75,7 @@ ID: {NNN} · Started: {YYYY-MM-DD}
 > {A few verbatim quotes that carry intent the summary can't.}
 
 ## Sketches
-- {Link to a sketch or set of options}: {what was chosen and why. Omit this section if nothing was sketched.}
+- {Link to a sketch or set of options, saved in `references/` unless it already has a lasting home}: {what was chosen and why. Omit this section if nothing was sketched.}
 
 ## Open questions
 - {Question that won't block the next phase.} Revisit when: {trigger}.
