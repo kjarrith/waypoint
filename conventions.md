@@ -4,7 +4,7 @@ Every Waypoint skill follows these rules. This file is the only place the folder
 
 ## Where projects live
 
-Projects live in `waypoints/` at the root of the working directory. Create it on first use. Keep it under version control and pushed, not gitignored: the documents are the project's state, and later sessions and scheduled agent runs can only read what's there.
+Projects live in `waypoints/` at the root of the working directory. Create it on first use. When working in a git repo, it's generally recommended to keep `waypoints/` under version control rather than in `.gitignore`.
 
 ```
 waypoints/
