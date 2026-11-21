@@ -1,22 +1,45 @@
 # Waypoint
 
-A Claude Code plugin for structured human-agent collaboration. It takes any project, whether software, hiring, content or operations, from a raw idea to delivered work through a few short phases, each ending in one document.
+**Think it through with your agent before it builds.** Waypoint is a Claude Code plugin that takes any project, whether code, hiring, content or operations, from a half-formed idea to delivered work, in a few short phases. Each phase ends in one plain markdown document.
 
-It's a thinking amplifier, not an automation shortcut: the agent researches, organizes and recommends; the human decides.
+Most agent workflows are about specs for code. Waypoint starts earlier, at what you actually want, and ends later, with whether you got it. The agent researches, organizes and recommends; you decide.
 
-## Phases
+## Quick start
 
-| Phase | Skill | Output |
-|-------|-------|--------|
-| Intent | `/waypoint:intent` | `intent.md`: the outcome, success criteria, non-goals and constraints everything later is checked against |
-| Gap | `/waypoint:gap` | `gap.md`: the executing agent's brief (what exists, what's missing, next steps), plus anything found that could change the intent |
-| Plan (optional) | `/waypoint:plan` | `plan.md`: ordered steps, for projects with several workstreams or real dependencies |
-| Work | `/waypoint:work` | `work.md`: one entry per approved step |
-| Reflect | `/waypoint:reflect` | `reflection.md`: outcome against intent, and learnings |
+```bash
+claude plugin marketplace add kjarrith/waypoint
+claude plugin install waypoint@waypoint
+```
 
-Gap can be skipped when the current state is already clear, and plan is only for complex projects. Simple work reads its steps straight from the gap analysis.
+Then, in any repo or folder:
 
-## Projects
+```
+/waypoint:intent
+```
+
+Tell it what you're thinking about. It takes it from there.
+
+## The phases
+
+| Phase | Command | You get |
+|-------|---------|---------|
+| Intent | `/waypoint:intent` | `intent.md`: the outcome, success criteria, non-goals and constraints that everything later is checked against |
+| Gap | `/waypoint:gap` | `gap.md`: what exists today, what's missing, and the next steps, plus anything found that should change the intent |
+| Plan (optional) | `/waypoint:plan` | `plan.md`: a short brief for you and the detailed steps for the agent |
+| Work | `/waypoint:work` | the work itself, one approved step at a time, logged in `work.md` |
+| Reflect | `/waypoint:reflect` | `reflection.md`: did it achieve the intent, and what to learn from how it went |
+
+Small projects skip the plan, and sometimes the gap analysis too.
+
+## What makes it different
+
+- **Intent comes first, and it's a conversation.** The agent plays back what it thinks you want, specific enough to be wrong, then goes further: it names the deeper goal, the tension you haven't noticed, and a sharper version of the idea. Where a picture helps, it offers to sketch two or three options for you to choose between.
+- **Your time goes where your judgment matters.** The gap analysis is the agent's homework, so you aren't asked to approve it, only to decide on what it found that changes the intent. Plans open with a short brief for you; the paths and detail sit underneath for the agent.
+- **One-way doors are named.** Before a plan is written, the agent brings you every decision that's costly to reverse or that involves a real trade-off, with the alternatives. It never goes through a one-way door you haven't agreed to.
+- **It closes the loop.** Reflect captures what the process taught you while it's fresh. When results take weeks to show, it writes an outcome check and can schedule an agent run to do it on the due date.
+- **The documents are the state.** No database, no service, no hidden files: just markdown in your repo, written for the next person or agent who picks the project up cold.
+
+## Where projects live
 
 ```
 waypoints/
@@ -29,17 +52,12 @@ waypoints/
       reflection.md
 ```
 
-IDs come from one counter across all of `waypoints/`. During a phase the conversation is the working memory; the phase's document is written when it's ready for review, so the documents themselves are the project's state. The full rules are in [`conventions.md`](conventions.md).
+Each project folder is a waypoint. Commit `waypoints/` like any other part of the repo: later sessions and scheduled runs can only read what's there. The full rules are in [`conventions.md`](conventions.md).
 
-## Install
+## Develop
 
-```bash
-claude plugin marketplace add kjarrith/waypoint
-claude plugin install waypoint@waypoint
-```
-
-To develop locally, run `claude --plugin-dir /path/to/waypoint`.
+Run `claude --plugin-dir /path/to/waypoint` to try local changes. Keep the skills short; [`CLAUDE.md`](CLAUDE.md) has the house rules.
 
 ## License
 
-MIT
+[MIT](LICENSE)
