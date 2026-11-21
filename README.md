@@ -52,7 +52,7 @@ waypoints/
       reflection.md
 ```
 
-Each project folder is a waypoint. Commit `waypoints/` like any other part of the repo: later sessions and scheduled runs can only read what's there. The full rules are in [`conventions.md`](conventions.md).
+Each project folder is a waypoint. In a git repo, it's generally worth keeping `waypoints/` under version control. The full rules are in [`conventions.md`](conventions.md).
 
 ## Develop
 
