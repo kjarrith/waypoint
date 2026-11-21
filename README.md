@@ -61,3 +61,7 @@ Run `claude --plugin-dir /path/to/waypoint` to try local changes. Keep the skill
 ## License
 
 [MIT](LICENSE)
+
+---
+
+Built by Kjartan Thorisson. Waypoint is made better with [oSimian](https://osimian.com).

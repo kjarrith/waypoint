@@ -42,6 +42,10 @@ Only intent starts projects. Claim the ID before the conversation begins, so par
 ## Parked ideas
 
 - **{idea}** (from 001, 2026-11-16): one or two sentences on what it is and why it was parked.
+
+---
+
+Made with [kjarrith/waypoint](https://github.com/kjarrith/waypoint)
 ```
 
 The index holds only what can't be read elsewhere. It has no status column: a project's progress is read from its documents. When a parked idea becomes a project, remove it from the list and mention it in the new project's intent.
