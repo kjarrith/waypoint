@@ -4,7 +4,7 @@ Every theway skill follows these rules. This file is the only place the folder l
 
 ## Where projects live
 
-Projects live in `way-docs/` at the root of the working directory. Create it on first use.
+Projects live in `way-docs/` at the root of the working directory. Create it on first use. Keep it under version control and pushed, not gitignored: the documents are the project's state, and later sessions and scheduled agent runs can only read what's there.
 
 ```
 way-docs/
@@ -48,7 +48,7 @@ The index holds only what can't be read elsewhere. It has no status column: a pr
 ## Documents
 
 - The conversation is the working memory. Write each phase's document when the phase is ready for review, not exchange by exchange. The exception is `work.md`, which gets one entry per approved step because work spans sessions.
-- `intent.md`, `plan.md` and `reflection.md` carry `Status: Draft` until the user approves them, then `Status: Approved`. `gap.md` has no status: it's the executing agent's brief, not something the user approves, and its existence means the gap phase is done. `work.md` carries `Status: In progress` until every step is approved, then `Status: Done`. Which documents exist, and their status, is the project's state. There is no separate state file.
+- `intent.md`, `plan.md` and `reflection.md` carry `Status: Draft` until the user approves them, then `Status: Approved`. `gap.md` has no status: it's the executing agent's brief, not something the user approves, and its existence means the gap phase is done. `work.md` carries `Status: In progress` until every step is approved, then `Status: Done`. A reflection with a pending Outcome check means the project is still waiting on outcomes. Which documents exist, and their status, is the project's state. There is no separate state file.
 - Link to sources where they live; don't copy them. If something that shaped a decision exists only in the conversation or in a temporary location, such as a pasted screenshot or text, a sketch file or a one-off export, save it in the project's `references/` folder and link to it from the document.
 - Write for an agent that never saw the conversation: a new session picks up a project by reading its documents. Record what was decided and why, not the conversation that got there.
 
