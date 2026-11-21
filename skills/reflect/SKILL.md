@@ -49,11 +49,11 @@ Status: Draft
 - {Something work found that isn't worth doing: dropped, and why.}
 
 ## Outcome check
-Due: {YYYY-MM-DD} · Status: pending
+### {YYYY-MM-DD}: {early check | full measurement} · pending
 - {Criterion}: {what to measure, where the data lives and how to read it, and what counts as met.}
 ```
 
-Park new ideas in `index.md`. Include the Outcome check only if some criterion isn't measurable yet, and write it for an agent that has nothing but the repo and its connectors.
+Park new ideas in `index.md`. Include the Outcome check only if some criterion isn't measurable yet, and write it for an agent that has nothing but the repo and its connectors. Give it dated checkpoints: usually an early one that only checks the mechanism fired at all, so a dead one is caught in days rather than weeks, then the full measurement once the result can show.
 
 ## 3. Talk
 
@@ -65,8 +65,8 @@ Ask whether anything outside the project, such as docs, tools or processes, shou
 
 Revise until the user approves, then set `Status: Approved`.
 
-If there is an Outcome check, check that `way-docs/` is committed and pushed, and that what it measures can be reached from where a scheduled run would work. If you can schedule a one-off agent run here, offer one for the due date whose prompt only points to this file's Outcome check. Otherwise, or if the user declines, tell them when to run `/theway:reflect` again.
+If there is an Outcome check, check that `way-docs/` is committed and pushed. If you can schedule one-off agent runs here, offer one per checkpoint, each with a prompt that only points to this file's Outcome check. A scheduled run reaches only what's pushed and the connectors it has. If some evidence needs access only a local session has, such as credentials on the user's machine, schedule the run anyway for what it can reach, and have it end by messaging the user its findings and a ready-to-paste prompt for a local session that does the rest. Never move credentials into a scheduled run's environment to make it work. If you can't schedule runs, or the user declines, tell them when to run `/theway:reflect` again.
 
 ## Stage 2: Outcome check
 
-Carry out the Outcome check in `reflection.md`: measure each item and append a `## Outcomes ({YYYY-MM-DD})` section with each result, its evidence, and whether the criterion is now met, partly met or not met. Leave stage 1 as it is, apart from setting the Outcome check's status to done. Park new ideas in `index.md`, commit the way the repo's conventions say, and tell the user what you found. This stage needs no approval. If something still can't be measured, say why and propose a new due date rather than guessing.
+Carry out the earliest pending checkpoint in the Outcome check in `reflection.md`: measure each item and append a `## Outcomes ({YYYY-MM-DD})` section with each result, its evidence, and whether the criterion is now met, partly met or not met. If part of it needs access you don't have, do the rest, and give the user your findings with a ready-to-paste prompt for a local session that finishes it. Leave stage 1 as it is, apart from marking that checkpoint done. Park new ideas in `index.md`, commit the way the repo's conventions say, and tell the user what you found. This stage needs no approval. If something still can't be measured, say why and propose a new due date rather than guessing.
