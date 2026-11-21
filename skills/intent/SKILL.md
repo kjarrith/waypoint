@@ -1,6 +1,6 @@
 ---
 name: intent
-description: "Phase 1 of The Way: turn a raw idea into an approved intent document through conversation. Use when the user invokes /theway:intent or asks to start a new Way project."
+description: "Phase 1 of Waypoint: turn a raw idea into an approved intent document through conversation. Use when the user invokes /waypoint:intent or asks to start a new waypoint."
 ---
 
 # Intent
@@ -85,4 +85,4 @@ Every sentence should be checkable: "modern feel" isn't; "clean layout with gene
 
 ## 5. Approve
 
-Ask the user to read it and push back on anything wrong or missing. Revise until they approve, then set `Status: Approved`. Close by naming the next step: `/theway:gap`, or `/theway:work` if the current state is already clear enough to skip gap (say why).
+Ask the user to read it and push back on anything wrong or missing. Revise until they approve, then set `Status: Approved`. Close by naming the next step: `/waypoint:gap`, or `/waypoint:work` if the current state is already clear enough to skip gap (say why).

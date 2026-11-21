@@ -1,4 +1,4 @@
-# The Way plugin
+# Waypoint plugin
 
 Five skills (`skills/*/SKILL.md`) take a project from intent to reflection. `conventions.md` is the single source of truth for the folder layout, IDs, documents and phase order; every skill reads it first and must not restate it.
 

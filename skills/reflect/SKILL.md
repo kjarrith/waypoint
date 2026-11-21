@@ -1,6 +1,6 @@
 ---
 name: reflect
-description: "Phase 5 of The Way: review a finished project against its intent and capture learnings. Use when the user invokes /theway:reflect, or wants to close out a Way project whose work is done."
+description: "Phase 5 of Waypoint: review a finished project against its intent and capture learnings. Use when the user invokes /waypoint:reflect, or wants to close out a waypoint whose work is done."
 ---
 
 # Reflect
@@ -65,7 +65,7 @@ Ask whether anything outside the project, such as docs, tools or processes, shou
 
 Revise until the user approves, then set `Status: Approved`.
 
-If there is an Outcome check, check that `way-docs/` is committed and pushed. If you can schedule one-off agent runs here, offer one per checkpoint, each with a prompt that only points to this file's Outcome check. A scheduled run reaches only what's pushed and the connectors it has. If some evidence needs access only a local session has, such as credentials on the user's machine, schedule the run anyway for what it can reach, and have it end by messaging the user its findings and a ready-to-paste prompt for a local session that does the rest. Never move credentials into a scheduled run's environment to make it work. If you can't schedule runs, or the user declines, tell them when to run `/theway:reflect` again.
+If there is an Outcome check, check that `waypoints/` is committed and pushed. If you can schedule one-off agent runs here, offer one per checkpoint, each with a prompt that only points to this file's Outcome check. A scheduled run reaches only what's pushed and the connectors it has. If some evidence needs access only a local session has, such as credentials on the user's machine, schedule the run anyway for what it can reach, and have it end by messaging the user its findings and a ready-to-paste prompt for a local session that does the rest. Never move credentials into a scheduled run's environment to make it work. If you can't schedule runs, or the user declines, tell them when to run `/waypoint:reflect` again.
 
 ## Stage 2: Outcome check
 

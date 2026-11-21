@@ -1,6 +1,6 @@
 ---
 name: gap
-description: "Phase 2 of The Way: research the distance between today and an approved intent, as a brief for the agent that will do the work. Use when the user invokes /theway:gap, or wants a gap analysis for a Way project with an approved intent.md."
+description: "Phase 2 of Waypoint: research the distance between today and an approved intent, as a brief for the agent that will do the work. Use when the user invokes /waypoint:gap, or wants a gap analysis for a waypoint with an approved intent.md."
 ---
 
 # Gap
@@ -51,7 +51,7 @@ Save your questions for the end instead of interrupting. The one exception: if a
 ## Next steps
 1. {What to do, in order, noting dependencies.} Closes: {gap titles}
 
-**Recommendation:** {Go straight to /theway:work, or /theway:plan first, and why.}
+**Recommendation:** {Go straight to /waypoint:work, or /waypoint:plan first, and why.}
 
 ## Sources
 - {Path, URL, document or person.}

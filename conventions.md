@@ -1,13 +1,13 @@
-# The Way: shared conventions
+# Waypoint: shared conventions
 
-Every theway skill follows these rules. This file is the only place the folder layout, IDs, documents and phase order are defined.
+Every Waypoint skill follows these rules. This file is the only place the folder layout, IDs, documents and phase order are defined.
 
 ## Where projects live
 
-Projects live in `way-docs/` at the root of the working directory. Create it on first use. Keep it under version control and pushed, not gitignored: the documents are the project's state, and later sessions and scheduled agent runs can only read what's there.
+Projects live in `waypoints/` at the root of the working directory. Create it on first use. Keep it under version control and pushed, not gitignored: the documents are the project's state, and later sessions and scheduled agent runs can only read what's there.
 
 ```
-way-docs/
+waypoints/
   index.md
   {YYYY-MM}/
     {NNN}-{project-name}/
@@ -19,8 +19,9 @@ way-docs/
       references/      only when something needs saving (see Documents)
 ```
 
-- `NNN` is a three-digit ID from one counter across all of `way-docs/`, not one per month. `YYYY-MM` is the month the project started.
-- Find a project by ID with `way-docs/*/{NNN}-*/` and by name with `way-docs/*/*-{name}/`. If the user doesn't name one, use the project this conversation is about; otherwise read `index.md` and ask.
+- Each project folder is a waypoint.
+- `NNN` is a three-digit ID from one counter across all of `waypoints/`, not one per month. `YYYY-MM` is the month the project started.
+- Find a project by ID with `waypoints/*/{NNN}-*/` and by name with `waypoints/*/*-{name}/`. If the user doesn't name one, use the project this conversation is about; otherwise read `index.md` and ask.
 
 ## Starting a project
 
@@ -32,7 +33,7 @@ Only intent starts projects. Claim the ID before the conversation begins, so par
 ## index.md
 
 ```markdown
-# Way projects
+# Waypoints
 
 | ID | Project | Started | Summary |
 |----|---------|---------|---------|

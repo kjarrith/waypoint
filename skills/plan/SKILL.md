@@ -1,13 +1,13 @@
 ---
 name: plan
-description: "Optional phase 3 of The Way: break a complex project into ordered, checkable steps. Use when the user invokes /theway:plan, or when a Way project's gap.md recommends a plan."
+description: "Optional phase 3 of Waypoint: break a complex project into ordered, checkable steps. Use when the user invokes /waypoint:plan, or when a waypoint's gap.md recommends a plan."
 ---
 
 # Plan
 
 First read `conventions.md` in the plugin root, two levels up from this skill's directory. It defines the folders, IDs and document rules.
 
-A plan is only worth writing for projects that meet the bar in `conventions.md`. If this one doesn't, say so and suggest `/theway:work`.
+A plan is only worth writing for projects that meet the bar in `conventions.md`. If this one doesn't, say so and suggest `/waypoint:work`.
 
 ## 1. Align before writing
 
@@ -59,4 +59,4 @@ Group the steps under `### Workstream: {name}` headings only when there is more 
 
 ## 3. Approve
 
-Walk the user through the plan in brief; they approve that, not the agent's detail. Since the decisions were settled before writing, approval checks that the write-up matches what you agreed; it shouldn't bring up anything new. Revise until they approve, then set `Status: Approved` and point to `/theway:work`.
+Walk the user through the plan in brief; they approve that, not the agent's detail. Since the decisions were settled before writing, approval checks that the write-up matches what you agreed; it shouldn't bring up anything new. Revise until they approve, then set `Status: Approved` and point to `/waypoint:work`.

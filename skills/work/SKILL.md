@@ -1,6 +1,6 @@
 ---
 name: work
-description: "Phase 4 of The Way: carry out a project's steps one at a time, checking each and getting approval before moving on. Use when the user invokes /theway:work, or asks to continue the work on a Way project."
+description: "Phase 4 of Waypoint: carry out a project's steps one at a time, checking each and getting approval before moving on. Use when the user invokes /waypoint:work, or asks to continue the work on a waypoint."
 ---
 
 # Work
@@ -45,4 +45,4 @@ If you notice something worth doing outside the step, mention it and log it in t
 
 A step that can't finish inside the project can be handed off, with the user's agreement: log where it went and the check that will prove it. Reflect rates the criteria it serves as not met.
 
-When every step is approved or handed off, set `work.md` to `Status: Done` and offer `/theway:reflect`.
+When every step is approved or handed off, set `work.md` to `Status: Done` and offer `/waypoint:reflect`.

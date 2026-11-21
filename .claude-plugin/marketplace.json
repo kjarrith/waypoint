@@ -1,11 +1,11 @@
 {
-  "name": "theway-marketplace",
+  "name": "waypoint",
   "owner": {
     "name": "Kjartan Thorisson"
   },
   "plugins": [
     {
-      "name": "theway",
+      "name": "waypoint",
       "source": "./"
     }
   ]
